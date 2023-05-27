@@ -1,0 +1,160 @@
+.navb {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.active {
+  border-bottom: 4px solid #3213ac;
+  font-weight: 500;
+  color: #3213ac;
+}
+.activet {
+  border-bottom: 4px solid #3213ac;
+  font-weight: 500;
+  color: #3213ac;
+}
+.head {
+  margin: auto;
+}
+.headd {
+  display: flex;
+  list-style-type: none;
+  font-size: 17px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.headd li {
+  padding: 20px;
+}
+.users {
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+
+.open {
+  display: block;
+  background-color: #ccc4c4;
+  width: 86px;
+  margin-top: -3px;
+  border-radius: 10px;
+  list-style-type: none;
+}
+.profile {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.job {
+  background-color: white;
+  height: 64px;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+}
+.jobs {
+  padding-top: 23px;
+  padding-left: 24px;
+}
+.jobp {
+  margin-top: 20px;
+}
+.jobli {
+  margin-top: 20px;
+}
+.jobtabs {
+  background-color: white;
+  height: 69px;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.jobce {
+  padding-top: 5px;
+}
+.tabslt {
+  display: flex;
+}
+.count {
+  margin-top: 26px;
+  margin-left: 12px;
+  width: 25px;
+  background-color: green;
+  height: 21px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+.joblist {
+  background-color: white;
+  height: 250px;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.box1{
+    flex-direction: row;
+}
+.box1l{
+    display: flex;
+    margin-top: 18px;
+}
+.box2{
+    flex-direction: row;
+}
+.box2l{
+    display: flex;
+    margin-top: 18px;
+}
+.req{
+    margin-top: 50px;
+    margin-left: -33px;
+}
+.box3{
+    flex-direction: row;
+}
+.box3l{
+    display: flex;
+    margin-top: 33px;
+}
+.reqin{
+    background-color: #0000ffe0;
+    color: white;
+    height: 30px;
+    width: 181px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.ope{
+    background-color: green;
+    width: 62px;
+    height: 22px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    border-radius: 11px;
+}
+.status{
+    background-color: red;
+}
